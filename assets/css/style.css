@@ -1,0 +1,55 @@
+body {
+  background-color: #161515;
+  color: white;
+}
+
+.Menu li {
+  display: inline;
+  padding: 16px;
+}
+
+.Menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.Menu li a:hover {
+  font-size: 24px;
+  color: grey;
+}
+
+.Container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Center {
+  text-align: center;
+}
+
+.P-30 {
+  padding: 30px;
+}
+
+.Wh-300 {
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+}
+
+.Br-50 {
+  border-radius: 10%;
+}
+
+.Mb-50 {
+  margin-bottom: 50px;
+}
+
+.Tm-social {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
